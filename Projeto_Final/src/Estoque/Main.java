@@ -23,7 +23,7 @@ public class Main {
 
             switch (escolha){
                 case 1:
-                    System.out.println("\n--- Cadastro de Fornecedor ---");
+                    System.out.println("\n Cadastro de Fornecedor ");
                     System.out.print("Nome: ");
                     String nomeFornecedor = sc.nextLine();
                     System.out.print("CNPJ: ");
@@ -38,7 +38,7 @@ public class Main {
                         break;
                     }
 
-                    System.out.println("\n--- Cadastro de Produto ---");
+                    System.out.println("\n Cadastro de Produto ");
                     System.out.print("Nome do Fornecedor para vincular: ");
                     String buscaFornecedor = sc.nextLine();
 
@@ -71,7 +71,7 @@ public class Main {
                     break;
 
                 case 3:
-                    System.out.println("\n--- Registrar Saída ---");
+                    System.out.println("\n Registrar Saída ");
                     System.out.print("Nome do Produto: ");
                     String nomeBusca = sc.nextLine();
                     System.out.print("Quantidade a retirar: ");
